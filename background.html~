@@ -1,0 +1,102 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="init()">
+ <div id="container">
+
+    <input id="searchbox" type="text" value="Enter the product name"  >
+    </input>
+    </td>
+
+    <!--<div id="searchbutton" type="button">
+    </div>
+    -->
+    
+    FlipKart&nbsp;<input type="radio" name="checkboxes" value="FlipKart" id="fk" onclick="toggle('flipkart');">
+    HomeShop18&nbsp;<input type="radio" name="checkboxes" value="HomeShop18" id="hs" onclick="toggle('homeshop');">
+    Amazon&nbsp;<input type="radio" name="checkboxes" value="Amazon" id="am" onclick="toggle('amazon');">
+    <div>
+    <button id="searchbutton" name="searchbutton" onclick="_search();">Search</button>
+ </div>
+
+<div id="amazon" style="display:none">Amazon
+<select  name="amazonchk" id="ama">
+<option selected="selected" value="search-alias=aps">All Departments</option>
+<option value="search-alias=instant-video">Amazon Instant Video</option>
+<option value="search-alias=appliances">Appliances</option>
+<option value="search-alias=mobile-apps">Apps for Android</option>
+<option value="search-alias=arts-crafts">Arts, Crafts &amp; Sewing</option>
+<option value="search-alias=automotive">Automotive</option>
+<option value="search-alias=baby-products">Baby</option>
+<option value="search-alias=beauty">Beauty</option>
+<option value="search-alias=stripbooks">Books</option>
+<option value="search-alias=mobile">Cell Phones &amp; Accessories</option>
+<option value="search-alias=apparel">Clothing &amp; Accessories</option>
+<option value="search-alias=computers">Computers</option>
+<option value="search-alias=electronics">Electronics</option>
+<option value="search-alias=gift-cards">Gift Cards</option>
+<option value="search-alias=grocery">Grocery &amp; Gourmet Food</option>
+<option value="search-alias=hpc">Health &amp; Personal Care</option>
+<option value="search-alias=garden">Home &amp; Kitchen</option>
+<option value="search-alias=industrial">Industrial &amp; Scientific</option>
+<option value="search-alias=jewelry">Jewelry</option>
+<option value="search-alias=digital-text">Kindle Store</option>
+<option value="search-alias=magazines">Magazine Subscriptions</option>
+<option value="search-alias=movies-tv">Movies &amp; TV</option>
+<option value="search-alias=digital-music">MP3 Downloads</option>
+<option value="search-alias=popular">Music</option>
+<option value="search-alias=mi">Musical Instruments</option>
+<option value="search-alias=office-products">Office Products</option>
+<option value="search-alias=outdoor">Patio, Lawn &amp; Garden</option>
+<option value="search-alias=pets">Pet Supplies</option>
+<option value="search-alias=shoes">Shoes</option>
+<option value="search-alias=software">Software</option>
+<option value="search-alias=sporting">Sports &amp; Outdoors</option>
+<option value="search-alias=tools">Tools &amp; Home Improvement</option>
+<option value="search-alias=toys-and-games">Toys &amp; Games</option>
+<option value="search-alias=videogames">Video Games</option>
+<option value="search-alias=watches">Watches</option>
+</select>
+</div>
+
+
+
+
+<div id="flipkart" style="display:none">Flipkart
+<select name="flipkartchk" id="flpk">
+<option value="search-books">Books</option>
+<option value="search/a/mobiles">Mobiles and accessories</option>
+<option value="search-computer-accessories">Computers</option>
+<option value="search/a/cameras">Camera</option>
+<option value="search/a/games">Games and Consoles</option>
+<option value="search/a/movies">Movies and TV shows</option>
+<option value="search-music">Music</option>
+<option value="search/a/audioplayers">Audio Players</option>
+<option value="search/a/phcare">Personal and Health Care</option>
+<option value="search-homeappliances">Home Appliances</option>
+<option value="search/a/tv-video">TV and Video Players</option>
+</select>
+</div>
+
+<div id="homeshop" style="display:none">HomeShop18
+<select name="homeshopchk" id="hp">
+<option value="books">Books</option>
+<option value="mobiles">Mobiles</option>
+<option value="camera">Camera</option>
+<option value="electronics">Electronics</option>
+<option value="computer">Computers</option>
+<option value="apparel">Apparel</option>
+<option value="jewellry">Jewelry</option>
+<option value="home">Home and Kitchen</option>
+<option value="kids">Kids</option>
+<option value="toys">Toys and Games</option>
+<option value="gifts">Gifts</option>
+<option value="household">Appliances</option>
+</select>
+</div>   
+</body>
+</html>

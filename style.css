@@ -1,0 +1,126 @@
+ html {
+ 
+
+
+    background-color: rgba(6, 27, 99, 0.4);
+    background: rgba(6, 27, 99, 0.4);
+    color: rgba(6, 27, 99, 0.4);
+ -webkit-box-shadow: 5px 5px 5px #ccc;
+  border-radius:5px;
+  }
+  body {
+      
+   
+	
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top
+	
+);
+
+
+	margin:4px;
+	font-weight: bold;
+	
+	padding:2px;
+  }
+  table, tr, td {
+	margin:1px;
+	padding:1px;
+  }
+  table {
+	border-collapse: collapse;
+  }
+  td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px #000 solid;
+  }
+  #container {
+	width:350px;
+  }
+  
+  #searchbox {
+         border: none;
+	 width: 350px;
+	 margin: 0 auto;
+	 padding: 13px 0 0 15px; 
+	 font-weight: bold;
+	 height:24px;
+	 font-size:13px;
+	 font-family:arial;
+	 color:#000000;
+	 margin-top:3px;
+	 background-repeat:no-repeat;
+	 background-position:3px 3px;
+	 padding-left:23px;
+	 border:1px solid #9a9a9a;
+	 border-right:0px;
+	 padding-right:23px;
+
+font-family:Arial, Helvetica, sans-serif;
+font-size:10pt;
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+border-right:1px solid #999999;
+border-bottom:1px solid #999999;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  }
+#fk,#hs,#am
+{
+background: url(radio.png) no-repeat;
+margin-top:10px;
+}
+
+#amazon,#flipkart,#homeshop 
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+border-radius:2em;
+ position: absolute;
+}
+
+
+  #searchbutton {
+	 
+	 background-image:url(50.png);
+	 
+	 background-repeat:no-repeat;
+	 color:black;
+	 float:right;
+	 width:60px;
+	 height:25px;
+	 margin-top:13px;
+	 margin-bottom:6px;
+	 cursor:pointer;
+	 border-radius:5px;
+	 -moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  button-shadow: 5px 5px 5px #ccc;
+  }
+     #searchbutton:active {  
+        -moz-box-shadow: 0 2px 6px black;  
+        -webkit-box-shadow: 0 2px 6px black;  
+    }  
+   
+    #searchbutton:before {  
+        font-family: EfonRegular;  
+        content: 'v';  
+        color: #09232F;  
+        font-size: 90px;  
+        float: left;  
+        margin-left: 35px;  
+        margin-right: -10px;  
+        text-shadow: 0 1px 0 #4190AF;  
+    }  

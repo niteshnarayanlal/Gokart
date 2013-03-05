@@ -1,0 +1,74 @@
+ html {
+	margin:0px;
+	padding:0px;
+  }
+  body {
+        background-color:cyan; 
+        filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#363636',EndColorStr='#FFFFFF');
+	
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	
+);
+
+
+	margin:4px;
+	font-weight: bold;
+	
+	padding:2px;
+  }
+  table, tr, td {
+	margin:1px;
+	padding:1px;
+  }
+  table {
+	border-collapse: collapse;
+  }
+  td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px #000 solid;
+  }
+  #container {
+	width:350px;
+  }
+  #searchbox {
+         border: none;
+	 width: 350px;
+	 margin: 0 auto;
+	 padding: 13px 0 0 15px; 
+	 font-weight: bold;
+	 height:24px;
+	 font-size:13px;
+	 font-family:arial;
+	 color:#000000;
+	 margin-top:3px;
+	 background-repeat:no-repeat;
+	 background-position:3px 3px;
+	 padding-left:23px;
+	 border:1px solid #9a9a9a;
+	 border-right:0px;
+	 padding-right:23px;
+  }
+
+
+
+
+
+  #searchbutton {
+	 
+	
+	 float:right;
+	 font: normal 12px arial, sans-serif;
+	 border-radius:3
+	 font-weight: bold;
+	 background-repeat:transparent no-repeat;
+	 display:block;
+         margin-bottom:4px;	 
+	 width:60px;
+	 height:30px;
+	 margin-top:4px;
+	 cursor:pointer;
+  }
